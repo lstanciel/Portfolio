@@ -1,0 +1,22 @@
+import kareltherobot.*;
+import java.awt.Color;
+
+public class DoubleDrop
+  extends UrRobot
+  implements Directions
+
+{
+ public DoubleDrop(int row, int col, Direction dir, int beep)
+  {
+    super(row,col,dir,beep);
+  }
+  
+ @Override
+ public void putBeeper();
+ {
+   super.putBeeper();
+   super.putBeeper();
+ }
+ 
+ 
+   

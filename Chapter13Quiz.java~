@@ -1,0 +1,19 @@
+import java.lang.*;
+import java.util.*;
+import org.junit.*;
+import org.junit.runner.*;
+import static org.junit.Assert.*;
+
+public class Chapter13Quiz{
+  
+  public static void runfast(ArrayList<String> data){
+    int len = data.size();
+    
+    for(int i = 1; i < len;i++){
+      if(((data.get(i)).equals("I"))
+           &&((data.get(i+1)).equals("run"))
+           &&((data.get(i+2)).equals("fast")))
+        data.add((i-1),"and");
+        data.add((i-2),"You");
+    }
+    return data;}

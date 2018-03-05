@@ -1,0 +1,18 @@
+import kareltherobot.*;
+import java.awt.Color;
+
+public class Ch3Ex2PinSetter
+  extends UrRobot
+  implements Directions
+{
+  public void turnRight()
+  {
+    turnLeft();
+    turnLeft();
+    turnLeft();
+  }
+  
+  
+}
+  
+  

@@ -1,0 +1,60 @@
+import kareltherobot.*;
+import java.awt.Color;
+
+public class CapretTask implements Directions {
+  public static void main (String[] args)
+    
+    {
+    (new CarpetTask()).doWork();
+  }
+  
+  public void layRow();
+  {
+    move();
+    putBeeper();
+    move();
+    putBeeper();
+    move();
+    putBeeper();
+    move();
+    putBeeper();
+    move();
+    putBeeper();
+    move();
+    putBeeper();
+    move();
+    putBeeper();
+    
+  }
+  
+   public void turnRight()
+ {
+   turnLeft();
+   turnLeft();
+   turnLeft();
+ }
+   
+  public void doWork () {
+    int row = 9;
+    int col = 2;
+    int jayBeepers = 0;
+    
+    World.readWorld("worlds/fig3-9.kwld");
+    World.setVisible(true);
+    World.setDelay(100);
+    //World.showSpeedControl(true);
+    
+  UrRobot jay = new UrRobot(row,col,South,
+                               jayBeepers,
+                               Color.GREEN);
+  
+  jay.layRow();
+  jay.turnRight();
+  jay.layRow();
+  jay.turnRight();
+  jay.layRow();
+  jay.turnRight();
+  jay.layRow();
+  }}
+  
+  

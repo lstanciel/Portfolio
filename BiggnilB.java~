@@ -1,0 +1,11 @@
+public class BiggnilB
+public static boolean gnil(String a, String b)
+int len = a.length();
+int len2 = b.length();
+boolean answer = false;
+String reverseA = “”;
+for(int i = 0; i < len; i++) {
+reverseA = a.substring(i, i+1) + reverseA;}
+if(
+
+

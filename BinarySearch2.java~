@@ -1,0 +1,33 @@
+import java.lang.*;
+import java.util.*;
+import org.junit.*;
+import org.junit.runner.*;
+import static org.junit.Assert.*;
+
+public class BinarySearch2{
+  public int binary(ArrayList <String> data, Integer wanted){
+    int left = 0;
+    int right = data.size();
+    int len = data.size();
+    int mid = (left + right)/2;
+    int NOT_FOUND = -1;
+    
+    if(right == 0){
+      return NOT_FOUND;
+    }
+    
+    String midItem = data.get(mid);
+    
+    if(midItem.equals(wanted)){
+      return mid;
+    }
+    
+    int compare = midItem.compareTo(wanted);
+    
+    if(compare < 0){
+      left = mid + 1;
+    }
+    else
+      right = mid;
+  }
+}

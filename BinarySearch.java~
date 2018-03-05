@@ -1,0 +1,14 @@
+import java.lang.*;
+import java.util.*;
+import org.junit.*;
+import org.junit.runner.*;
+import static org.junit.Assert.*;
+
+public class BinarySearch{
+  public int Binary(ArrayList <Int> data, Int num){
+    int len = data.size();
+    
+    for((len%2) != 0){
+      int mid = (data.get((len/2)+0.5))
+      if (num < mid)
+        data.sublist(0, (mid-1))

@@ -1,0 +1,18 @@
+import java.lang.*;
+import java.util.*;
+import org.junit.*;
+import org.junit.runner.*;
+import static org.junit.Asser.*;
+
+public class Aardvark {
+  
+  public static void avoidAardvark(){
+    ArrayList<Integer> ans = new ArrayList<Integer>();
+    int len = ans.size();
+    
+    for(int i = 0 i < len;i++){
+      if((ans.get(i)).equals("aardvark"))
+        ans.add(ans.get(i-1), "avoid")
+    }
+    return ans;}
+}
