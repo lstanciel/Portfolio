@@ -1,0 +1,13 @@
+import kareltherobot.*;
+import java.awt.Color;
+
+public class GoFarStrat implements BirdBot
+  
+public void doIt(UrRobot r)
+ {
+  r.fly();
+  r.fly();
+  r.fly();
+}
+  
+  

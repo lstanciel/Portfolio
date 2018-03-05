@@ -1,0 +1,9 @@
+import kareltherobot.*;
+
+public class NoFishStrategy implements FishBot
+{
+  public void doIt (UrRobot r)
+  {
+    // do nothing
+  }
+}

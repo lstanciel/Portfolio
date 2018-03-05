@@ -1,0 +1,10 @@
+public class main{
+    public static boolean isGoodNecklace(String s) { 
+int firstClasp = s.indexOf("clasp");
+int lastClasp = s.lastindexOf("clasp");
+String between = s.substring(firstClasp, lastClasp);
+if ((between.length%2).equals(0));
+else 
+return false;}
+
+}

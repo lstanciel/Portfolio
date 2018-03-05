@@ -1,0 +1,32 @@
+import java.lang.*;
+import java.util.*;
+import org.junit.*;
+import org.junit.runner.*;
+import static org.junit.Assert.*;
+
+public class MergeSort{
+  public static ArrayList<Integer> mergeSort(ArrayList<Integer> data){
+    ArrayList<String> left = new ArrayList<String>();
+    ArrayList<String> right = new ArrayList<String>();
+    int middle;
+ 
+    if (data.size() == 1) {    
+        return data;
+    } else {
+        middle = data.size()/2;
+        for (int i=0; i<middle; i++) {
+                left.add(data.get(i));
+        }
+ 
+        //copy the right half of data into the new arraylist.
+        for (int i=middle; i<data.size(); i++) {
+                right.add(data.get(i));
+        }
+ 
+        left  = mergeSort(left);
+        right = mergeSort(right);
+        
+        merge(left, right, data);
+    }
+    return data;
+}

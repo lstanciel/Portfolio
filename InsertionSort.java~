@@ -1,0 +1,36 @@
+import java.lang.*;
+import java.util.*;
+import org.junit.*;
+import org.junit.runner.*;
+import static org.junit.Assert.*;
+
+public class InsertionSort extends BinaryInsert{
+  public static ArrayList<Integer> insertionSort(ArrayList<Integer> data){
+    int len = data.size();
+    for(int i=1; i<len; i++){
+      int cmp = data.get(i);
+      int temp = i;
+      
+      int loc = binaryInsert(data, i);
+      data.add(loc, i);
+      data.remove(loc);
+          
+        }
+    return data;
+      }
+  
+  public static void main(String[] args){
+    ArrayList<Integer> test = new ArrayList<Integer>();
+    test.add(1);
+    test.add(3);
+    test.add(5);
+    test.add(8);
+    test.add(6);
+    test.add(7);
+    test.add(10);
+    
+    System.out.println(insertionSort(test));
+    }
+}
+
+

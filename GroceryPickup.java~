@@ -1,0 +1,43 @@
+import kareltherobot.*;
+import java.awt.Color;
+
+public class GroceryPickup implements Directions {
+  public static void main (String[] args)
+  {
+    (new GroceryPickup()).doWork();
+  }
+  
+  
+  public void doWork () {
+    int row = 1;
+    int col = 2;
+    int robinBeepers=5;
+    
+    World.readWorld("worlds/GroceryPickup.kwld");
+    World.setVisible(true);
+    World.setDelay(100);
+    //World.showSpeedControl(true);
+    
+  UrRobot robin = new UrRobot(row,col,East,
+                               robinBeepers,
+                               Color.GREEN);
+  robin.move();
+  robin.move();
+  robin.pickBeeper();
+  robin.move();
+  robin.turnLeft();
+  robin.turnLeft();
+  robin.turnLeft();
+  robin.move();
+  robin.pickBeeper();
+  robin.move();
+  robin.turnLeft();
+  robin.move();
+  robin.pickBeeper();
+  robin.move();
+  robin.pickBeeper();
+  
+  robin.turnoff(); 
+  }
+  
+}

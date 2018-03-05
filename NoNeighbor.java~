@@ -1,0 +1,19 @@
+import kareltherobot.*;
+import java.awt.Color;
+
+public class NoNeighbor extends UrRobot umplements BeeperPutter
+{
+  
+public void swarm()
+{
+  putBeeper();
+  move();
+}
+
+public NoNeighbor int row, int col, Direction dir, int beep)
+{
+  super(row,col,dir,beep);
+}
+
+
+  

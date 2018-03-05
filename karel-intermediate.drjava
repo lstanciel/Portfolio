@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="ThanksgivingBot.java" package="" timestamp="26-Nov-2017 12:12:44">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="Skeleton.java" package="" timestamp="17-Oct-2017 09:37:18">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="MakeWorld.java" package="" timestamp="18-Oct-2017 10:02:30">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="KarelStarter.java" package="" timestamp="23-Oct-2017 09:08:21">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="Strategy.java" package="" timestamp="12-Nov-2017 12:00:42">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="NoStrategy.java" package="" timestamp="12-Nov-2017 12:00:42">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="NoFishStrategy.java" package="" timestamp="12-Nov-2017 12:00:42">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="DartLeft.java" package="" timestamp="12-Nov-2017 12:00:42">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="DartForward.java" package="" timestamp="13-Nov-2017 09:05:41">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="TwoBeeper.java" package="" timestamp="13-Nov-2017 09:22:41">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="FishBot.java" package="" timestamp="13-Nov-2017 09:30:01">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="GoFarStrat.java" package="" timestamp="13-Nov-2017 09:39:46">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="BirdBot.java" package="" timestamp="13-Nov-2017 09:39:50">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="DoDishesStrat.java" package="" timestamp="20-Nov-2017 21:27:42">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="StrategyLayer.java" package="" timestamp="21-Nov-2017 09:12:15">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="DoNothing.java" package="" timestamp="21-Nov-2017 09:27:09">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="WatchTV.java" package="" timestamp="21-Nov-2017 09:38:45">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="ChefBot.java" package="" timestamp="26-Nov-2017 00:43:26">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+      <file name="RelativeBot.java" package="" timestamp="26-Nov-2017 12:12:44">
+        <select from="501" to="501"/>
+        <scroll column="384" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="lib/KarelJRobot.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
