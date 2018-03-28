@@ -1,0 +1,13 @@
+public class SubArray{
+public static int subArray(int[] data, int start, int end, int steps){
+    int i = 0; 
+    int j = 0;
+    int[] temp = new int[end];
+    for (i = start , j = 0 ; i <= end ; i += steps , ++j)
+      temp[j] = data[i];
+    for (i = 0 ; i < j ; ++i)
+      data[i] = temp[i];
+    
+    return (end - start)/steps + 1; 
+  }
+}

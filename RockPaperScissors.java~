@@ -1,0 +1,14 @@
+import java.util.Scanner;
+import java.util.*;
+
+public class RockPaperScissors{
+  public static void main(String[] args) {
+    test_1();
+    test_2();
+    test_3();
+    RockPaperScissors();
+  }
+
+  public static String RockPaperScissors{
+  Scanner sc = new Scanner(System.in);
+   int n = sc.nextInt();

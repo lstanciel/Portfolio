@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class StopTheTracker {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        String complex = sc.nextLine();
+        int n = Integer.parseInt(sc.nextLine());
+        
+        int plusPos = complex.indexOf("+");
+        
+        int a = Integer.parseInt(complex.substring(0, plusPos-1));
+        int b = Integer.parseInt(complex.substring(plusPos+2, complex.length()-1));
+    }
+
+}

@@ -1,0 +1,33 @@
+import kareltherobot.*;
+
+public abstract class ThanksgivingBot extends StrategyLayer
+{
+  public abstract boolean isChef();
+  
+  public boolean isRelative() { 
+    return ! isChef();
+  }
+  
+  public abstract Strategy getHelp();
+  
+  public boolean isHelpful()
+  {
+    return isRelative();
+  }
+  
+    
+  public void goToKitchen()
+  {
+    turnLeft();
+    move();
+    move();
+    move();
+    move();
+  }
+
+
+  public ThanksgivingBot(int r, int c, Direction d, int b, Strategy strat)
+  {
+    super(r,c,d,b,strat);
+  }
+}

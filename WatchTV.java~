@@ -1,0 +1,12 @@
+import kareltherobot.*;
+
+public class WatchTV implements Strategy
+{
+  public void doIt (UrRobot r)
+  {
+    System.out.println("Chef: Well, thanks for being zero help.");
+    r.move();
+    r.move();
+    r.move();
+  }
+}

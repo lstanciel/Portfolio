@@ -1,0 +1,42 @@
+import kareltherobot.*;
+import java.util.*;
+
+public class RelativeBot extends ThanksgivingBot
+{
+  public boolean isChef() {
+    return false;
+  }
+  
+  public Strategy getHelp() {
+    if (Strategy == cook)
+    System.out.println("Chef: Can you take these dishes.");
+    pickBeeper();
+    pickBeeper();
+    move();
+    return new DoDishesStrat();
+    
+    if (Strategy == lazy)
+    return new WatchTV();
+  }
+  
+  public RelativeBot(int r, int c, Direction d, int b, Strategy strat)
+  {
+    super(r,c,d,b,strat);
+  }
+
+  public static void main(String[] args)
+  {
+    World.setVisible(true);
+    World.setDelay(50);
+    Strategy cook = new DoNothing();
+    ChefBot helpless = new ChefBot(4,1,East,3,cook);
+    //Strategy cleanup = new DoDishesStrat();
+    //RelativeBot goodRelative = new RelativeBot(4,5,North,0,cleanup);
+    Strategy lazy = new WatchTV();
+    RelativeBot badRelative = new RelativeBot(4,4,North,1,lazy);
+    helpless.lookForRelative();
+    badRelative.goToKitchen();
+    badRelative.turnOff();
+  
+  }
+}
