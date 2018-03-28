@@ -1,0 +1,16 @@
+class MaxDifference{
+  public static int MaxDifference(int[] data){  
+    int max = data[0];
+    int min = data[0];
+    for( int i : data){ 
+      if( max < i )
+        max = i;
+      if( min > i )
+        min = i;
+    }
+}
+   public static void main (String[] args) {
+        int[] ints = {2,6,1,5,10,7};
+        System.out.println(MaxDifference(ints));
+}
+}

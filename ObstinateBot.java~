@@ -1,0 +1,17 @@
+import kareltherobot.*;
+import java.awt.Color;
+
+public class ObstinateBot extends UrRobot
+
+public void move()
+{
+  putBeeper();
+}
+
+public void putBeeper()
+{
+ move();
+}
+
+  
+  
